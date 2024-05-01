@@ -5,14 +5,13 @@
   |============================
 */
 @import url('./reset.css');
-@import url('./vite-promo.css');
 @import url('./header.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Gilroy;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
+  font-weight: 600;
 
   color: #242424;
   background-color: rgba(255, 255, 255, 0.87);
