@@ -1,0 +1,48 @@
+.about-div {
+border-radius: 30px;
+  width: 335px;
+  height: 446px;
+  background-color: #f3f3f3;
+}
+
+.about-title {
+  font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 28px;
+}
+
+.about-subtitle {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    max-width: 295px;
+    margin-bottom: 20px;
+}
+
+.about-sub {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    max-width: 295px;
+}
+
+.about-btn {
+  border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background-color: #3350e9;
+}
+
+.about-div-div {
+
+}
+
+
+
