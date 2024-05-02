@@ -92,3 +92,51 @@ margin-top: 28px;
 ::placeholder{
 color: #0C0C0C;
 }
+
+@media screen and (min-width: 768px) {
+.contact-us{
+padding-bottom: 80px;
+}
+.contact-title{
+font-size: 48px;
+line-height: 44px;
+letter-spacing: -0.96px;
+margin-bottom: 40px;
+}
+.form-container{
+padding: 50px 122px;
+gap: 32px;
+width: 704px;
+margin-bottom: 40px;
+}
+.form-title{
+font-size: 16px;
+line-height: 20px;
+letter-spacing: -0.32px;
+}
+.form-input{
+width: 460px;
+height: 52px;
+font-size: 16px;
+line-height: 20px;
+padding-top: 16px;
+padding-left: 16px;
+}
+.name{
+    padding-left: 18px;
+}
+.form-textarea {
+width: 460px;
+height: 90px;
+font-size: 16px;
+line-height: 20px;
+padding-top: 16px;
+padding-left: 16px;
+}
+.form-button{
+margin-top: 32px;
+}
+}
+
+@media screen and (min-width: 1280px) {
+}
