@@ -1,11 +1,15 @@
 .advertisement {
-    padding-bottom: 60px;
-    height: 363px;
+    margin-bottom: 60px;
 }
 
 .advertisement-wrapper {
     background: url(../images/adverticement/advert-mob1.jpg);
+    background-repeat: no-repeat;
     border-radius: 30px;
+}
+
+.advertisement-content {
+    padding: 60px 28px 28px 28px;
 }
 
 .advertisement-title {
@@ -14,7 +18,7 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    padding: 28px 28px 60px 28px;
+    margin-bottom: 28px;
 }
 
 .advertisement-accent {
@@ -24,13 +28,79 @@
 .advertisement-contact-btn {
     border: 1px solid rgba(251, 251, 251, 0.15);
     border-radius: 16px;
-    width: 160px;
-    height: 48px;
-    margin-bottom: 60px;
-    margin-left: 28px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.28571;
     text-align: center;
     color: #fbfbfb;
+    padding: 15px 43px 15px 44px;
+}
+
+@media screen and (min-width: 768px) {
+    .advertisement {
+        padding-bottom: 60px;
+    }
+    
+    .advertisement-wrapper {
+        background: url(../images/adverticement/advert-tab1.jpg);
+        background-repeat: no-repeat;
+        border-radius: 30px;
+    }
+
+    .advertisement-content {
+        padding: 80px 64px 32px 64px;
+    }
+    
+    .advertisement-title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.91667;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+        margin-bottom: 32px;
+    }
+
+    .advertisement-contact-btn {
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        text-align: center;
+        color: #fbfbfb;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .advertisement {
+        margin-bottom: 100px;
+    }
+    
+    .advertisement-wrapper {
+        background: url(../images/adverticement/advert-desc1.jpg);
+        background-repeat: no-repeat;
+        border-radius: 30px;
+    }
+
+    .advertisement-content {
+        padding: 83px 80px 83px 80px;
+    }
+    
+    .advertisement-title {
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 0.91667;
+        letter-spacing: -0.02em;
+        color: #fbfbfb;
+    }
+    
+    .advertisement-contact-btn {
+        border: 1px solid rgba(251, 251, 251, 0.15);
+        border-radius: 16px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.28571;
+        text-align: center;
+        color: #fbfbfb;
+    }
 }
