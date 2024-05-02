@@ -48,3 +48,42 @@
   font-weight: 500;
   font-style: normal;
 }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.is-open {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+
+.container{
+  max-width: 375px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+      width: 768px;
+      padding: 0 32px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+  .container {
+      width: 1280px;
+      padding: 0 65px;
+    }
+}
