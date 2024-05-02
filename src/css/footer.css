@@ -1,35 +1,16 @@
-:root {
-  --main: #0c0c0c;
-  --accent: #3350e9;
-  --background: #fbfbfb;
-  --cards: #f3f3f3;
-}
-
-:root {
-  --font-family: 'Gilroy', sans-serif;
-}
-
 .footer-container {
   border-radius: 30px;
   padding: 40px 28px 28px 28px;
-  width: 335px;
-  height: 581px;
-  background: var(--main);
+  background-color: #0c0c0c;
 }
 
 .sections-footer {
-  width: 279px;
-  height: 513px;
 }
 
 .section-footer-vgori {
-  width: 279px;
-  height: 273px;
 }
 
 .logo-footer {
-  width: 122px;
-  height: 73px;
 }
 
 .logo-footer-logo {
@@ -38,6 +19,7 @@
 }
 
 .watchcharm {
+  padding-top: 40px;
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
@@ -67,6 +49,7 @@
 } */
 
 .have-the-time {
+  padding-top: 177px;
   line-height: 24px;
   line-height: 1.2;
   letter-spacing: -0.02em;
