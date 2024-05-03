@@ -1,15 +1,17 @@
 .advertisement {
-    margin-bottom: 60px;
+    padding-bottom: 60px;
 }
 
 .advertisement-wrapper {
-    background: url(../images/adverticement/advert-mob1.jpg);
-    background-repeat: no-repeat;
-    border-radius: 30px;
+
 }
 
 .advertisement-content {
-    padding: 60px 28px 28px 28px;
+    padding: 60px 28px 75px 28px;
+    background-image: url(../images/adverticement/advert-mob1.png);
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    background-color: #0c0c0c;
 }
 
 .advertisement-title {
@@ -18,12 +20,13 @@
     line-height: 1;
     letter-spacing: -0.02em;
     color: #fbfbfb;
-    margin-bottom: 28px;
+    margin-bottom: 43px;
 }
 
 .advertisement-accent {
     color: rgba(251, 251, 251, 0.5);
 }
+
 
 .advertisement-contact-btn {
     border: 1px solid rgba(251, 251, 251, 0.15);
@@ -42,13 +45,15 @@
     }
     
     .advertisement-wrapper {
-        background: url(../images/adverticement/advert-tab1.jpg);
-        background-repeat: no-repeat;
-        border-radius: 30px;
+
     }
 
     .advertisement-content {
-        padding: 80px 64px 32px 64px;
+        padding: 80px 64px 95px 64px;
+        background: url(../images/adverticement/advert-tab1.png);
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        background-color: #0c0c0c;
     }
     
     .advertisement-title {
@@ -57,7 +62,7 @@
         line-height: 0.91667;
         letter-spacing: -0.02em;
         color: #fbfbfb;
-        margin-bottom: 32px;
+        margin-bottom: 47px;
     }
 
     .advertisement-contact-btn {
@@ -77,13 +82,16 @@
     }
     
     .advertisement-wrapper {
-        background: url(../images/adverticement/advert-desc1.jpg);
-        background-repeat: no-repeat;
-        border-radius: 30px;
     }
 
     .advertisement-content {
-        padding: 83px 80px 83px 80px;
+        padding: 80px 80px 83px 80px;
+        background: url(../images/adverticement/advert-desc1.png);
+        background-repeat: no-repeat;
+        border-radius: 30px;
+        background-color: #0c0c0c;
+        display: flex;
+        gap: 140px;
     }
     
     .advertisement-title {
@@ -92,15 +100,19 @@
         line-height: 0.91667;
         letter-spacing: -0.02em;
         color: #fbfbfb;
+        margin-bottom: 0;
     }
-    
+
     .advertisement-contact-btn {
         border: 1px solid rgba(251, 251, 251, 0.15);
         border-radius: 16px;
+        width: 160px;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.28571;
+        display: inline-block;
         text-align: center;
         color: #fbfbfb;
+        white-space: nowrap;
     }
 }
