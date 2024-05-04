@@ -1,10 +1,5 @@
 .reviews { /* section */
-    /*display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 24px;
-    width: 375px;
-    height: 318px; */
+   
     padding-bottom: 60px;
 }
 
@@ -15,7 +10,8 @@ font-style: normal;
 font-weight: 600;
 line-height: 32px;
 letter-spacing: -0.64px;
-padding-bottom: 24px;
+padding-top: 24px;
+padding-bottom: 8px;
 } 
 .reviews-team { /* ul */
     display: flex;
@@ -32,7 +28,6 @@ display: flex;
 padding: 32px 36px;
 flex-direction: column;
 align-items: center;
-gap: 8px;
 }
 .content-name { /* h3 */
 color: #0C0C0C;
@@ -64,33 +59,21 @@ width: 263px;
 
 
 @media screen and (min-width: 768px) {
-.reviews { /* section*/
-    color: rgba(12, 12, 12, 0.40);
-    text-align: center;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 20px;
-    letter-spacing: -0.32px;
-    gap: 40px;
+.reviews { 
     padding-bottom: 80px;
 }
-.reviews-title {
-color: #0C0C0C;
-font-size: 48px;
-font-style: normal;
-font-weight: 600;
-line-height: 44px;
-letter-spacing: -0.96px;
-padding-bottom: 40px;
-}
-  
-.reviews-team { /* ul */
+
+
+.reviews-team {
 align-items: flex-start;
 gap: 16px;
 flex-direction: row;
 display: flex;
-padding-bottom: 40px;
+
+} 
+.content-name {
+padding-top: 24px;
+padding-bottom: 8px;
 }
 .text-content { /* p */
 color: rgba(12, 12, 12, 0.40);
@@ -108,44 +91,41 @@ letter-spacing: -0.32px;
 }
 
 @media screen and (min-width:1280px) { 
-.reviews { /* section */
-display: flex;
-align-items: flex-start;
-justify-content: flex-start;
-flex-direction: column;
-gap: 40px;
-padding: 0px 65px;
+.reviews { 
+
+padding-bottom: 100px;
 
 }
-.reviews-team { /* ul */
+ .reviews-team {  /* ul */
 
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    /*flex-direction: column;*/
-    gap: 8px;
     flex-direction: row;
+    gap: 24px;
 }
+.reviews-title { /* h2 */
+ padding-top: 24px;
+} 
 .reviews-item {  /* li */
 display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: column;
-gap: 24px;
 } 
 .content-reviews { /* div */
 display: flex;
 align-items: center;
 justify-content: flex-start;
 flex-direction: column;
-gap: 8px;
 background: #f3f3f3;
 border-radius: 30px;
 padding: 32px 36px;
 
 }
 .content-name {
-    padding-top: 24px;
+padding-top: 24px;
+padding-bottom: 8px;
 }
 
 .text-content { /* p*/
