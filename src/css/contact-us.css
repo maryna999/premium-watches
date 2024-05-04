@@ -166,7 +166,7 @@ margin-top: 32px;
 
 @media screen and (min-width: 1280px) {
     .contact-us{
-    padding-bottom: 100px;
+    margin-bottom: 100px;
     }
     .contact-us-container{
         display: flex;
