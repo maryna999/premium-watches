@@ -33,15 +33,14 @@
 
 .btn {
   padding-top: 20px;
-  border: 1px solid #fbfbfb;
+  border: 1px solid #838383;
+  width: 152px;
   border-radius: 30px;
 }
 
 .mob-namber {
-  width: 122px;
-
   line-height: 16px;
-  line-height: 1.33333;
+  /* line-height: 1.33333; */
   text-transform: uppercase;
   text-align: center;
   color: #fbfbfb;
