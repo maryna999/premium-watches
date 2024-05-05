@@ -8,8 +8,6 @@
 }
 
 .watchcharm {
-  /* padding: 48px 28px; */
-  /* font-family: var(--font-family); */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -77,13 +75,27 @@
   color: #fbfbfb;
 }
 .footer-menu-iteam {
-  display: flex;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  line-height: 1.33333;
-  text-align: center;
+
   color: #fbfbfb;
+}
+
+.menu-iteam-a {
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+  word-spacing: normal;
+}
+
+.menu-iteam-h {
+  width: 147px;
+  height: 64px;
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+  word-spacing: normal;
 }
 
 .vector-line {
@@ -107,16 +119,4 @@
   line-height: 1.4;
   letter-spacing: -0.02em;
   color: #838383;
-}
-
-.footer-menu {
-  word-spacing: 20px;
-  font-size: 0;
-}
-
-.menu-iteam {
-  display: inline-block;
-  width: calc(50% - 10px);
-  vertical-align: top;
-  word-spacing: normal;
 }
