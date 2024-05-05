@@ -31,18 +31,18 @@
   height: 34px;
 }
 
-.btn {
-  padding-top: 20px;
+.button {
   border: 1px solid #838383;
   width: 152px;
+  height: 44px;
   border-radius: 30px;
+  background-color: #0c0c0c;
 }
-
-.mob-namber {
-  line-height: 16px;
-  /* line-height: 1.33333; */
-  text-transform: uppercase;
+.button-title {
+  justify-content: center;
   text-align: center;
+  font-weight: 500;
+  font-size: 12px;
   color: #fbfbfb;
 }
 
