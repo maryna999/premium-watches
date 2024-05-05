@@ -108,3 +108,15 @@
   letter-spacing: -0.02em;
   color: #838383;
 }
+
+.footer-menu {
+  word-spacing: 20px;
+  font-size: 0;
+}
+
+.menu-iteam {
+  display: inline-block;
+  width: calc(50% - 10px);
+  vertical-align: top;
+  word-spacing: normal;
+}
