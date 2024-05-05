@@ -71,6 +71,9 @@ flex-direction: row;
 display: flex;
 
 } 
+.reviews-title {
+    padding-bottom: 40px;
+}
 .content-name {
 padding-top: 24px;
 padding-bottom: 8px;
@@ -99,7 +102,9 @@ padding-bottom: 100px;
  .reviews-team {  /* ul */
 
     display: flex;
-    align-items: center;
+    
+    align-items: flex-start; /* start */
+    
     justify-content: flex-start;
     flex-direction: row;
     gap: 24px;
