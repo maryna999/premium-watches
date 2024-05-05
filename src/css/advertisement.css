@@ -41,6 +41,21 @@
     padding: 15px 43px 15px 44px;
 }
 
+.advertisement-contact-btn:hover{
+    background: #FBFBFB;
+    color: #0C0C0C;
+}
+
+.advertisement-contact-btn:focus {
+    background: #FBFBFB;
+    color: #0C0C0C;
+}
+
+.advertisement-contact-btn:active {
+    background: #FBFBFB;
+    color: #0C0C0C;
+}
+
 @media screen and (min-width: 768px) {
     .advertisement {
         padding-bottom: 80px;
