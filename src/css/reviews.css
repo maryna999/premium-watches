@@ -64,7 +64,7 @@ width: 263px;
 }
 
 
-.reviews-team {
+.reviews-team { /* ul */
 align-items: flex-start;
 gap: 16px;
 flex-direction: row;
