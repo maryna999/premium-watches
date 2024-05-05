@@ -13,10 +13,24 @@
         just a timekeeping device – it's a statement piece that reflects your
         personality and style. So why settle for anything less than the best?
       </p>
-      <button type="submit" class="about-btn"></button>
+      <button type="button" class="about-btn">View catalog</button>
     </div>
     <div class="about-div-div">
-      <picture> <img src="" </picture>
+      <picture>
+        <source
+          srcset="./images/about-desc1.jpg 1x, ./images/about-desc2.jpg 2x"
+          media="(min-width: 1158px)"
+        />
+        <source
+          srcset="./images/about-tab1.jpg 1x, ./images/about-tab2.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="./images/about-mob1.jpg 1x, ./images/about-mob2.jpg 2x"
+          media="(min-width: 320px)"
+        />
+        <img src="./images/about-desc1.jpg" class="about-image" />
+      </picture>
     </div>
   </div>
 </section>
