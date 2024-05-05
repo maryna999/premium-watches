@@ -17,6 +17,7 @@
 }
 .socials-footer {
   padding-top: 20px;
+  margin-bottom: 60px;
   display: flex;
   width: 122px;
   height: 34px;
@@ -31,14 +32,14 @@
 }
 
 .btn {
-  padding-top: 40px;
+  padding-top: 20px;
+  border: 1px solid #fbfbfb;
+  border-radius: 30px;
 }
 
 .mob-namber {
-  border: 1px solid #fbfbfb;
-  width: 152px;
-  height: 14px;
-  border-radius: 30px;
+  width: 122px;
+
   line-height: 16px;
   line-height: 1.33333;
   text-transform: uppercase;
