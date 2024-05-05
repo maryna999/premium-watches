@@ -1,26 +1,15 @@
 .footer-container {
-  border-radius: 30px;
-  padding: 40px 28px 28px 28px;
   background-color: #0c0c0c;
-}
-
-.sections-footer {
-}
-
-.section-footer-vgori {
+  border-radius: 30px;
+  padding: 48px 28px;
 }
 
 .logo-footer {
 }
 
-.logo-footer-logo {
-  width: 90px;
-  height: 19px;
-}
-
 .watchcharm {
-  padding-top: 40px;
-  font-family: var(--font-family);
+  /* padding: 48px 28px; */
+  /* font-family: var(--font-family); */
   font-weight: 500;
   font-size: 16px;
   letter-spacing: -0.02em;
@@ -41,17 +30,25 @@
   height: 34px;
 }
 
-.mob-namber {
+.btn {
   padding-top: 40px;
+}
+
+.mob-namber {
+  border: 1px solid #fbfbfb;
+  width: 152px;
+  height: 14px;
+  border-radius: 30px;
   line-height: 16px;
   line-height: 1.33333;
   text-transform: uppercase;
   text-align: center;
-  /* color: #fbfbfb; */
+  color: #fbfbfb;
 }
 
 .have-the-time {
-  padding-top: 147px;
+  padding-top: 40px;
+  padding-bottom: 92px;
   line-height: 24px;
   line-height: 1.2;
   letter-spacing: -0.02em;
