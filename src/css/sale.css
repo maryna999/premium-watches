@@ -2,7 +2,7 @@
     padding-bottom: 60px;
 }
 
-.sale-subject {
+.sale-title {
     margin-bottom: 24px;
     font-weight: 600;
     font-size: 32px;
@@ -11,3 +11,359 @@
     color: #0C0C0C;
 }
 
+.sale-watch-list {
+    display: flex;
+    gap: 5px;
+    width: 335px;
+}
+
+.sale-watch-item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 16px;
+    width: 80px;
+    height: 80px;
+    background: #F3F3F3
+}
+
+.sale-watch-image {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border: 1px solid rgba(12, 12, 12, 0.05);
+    border-radius: 30px;
+    width: 335px;
+    height: 385px;
+    background: #F3F3F3;
+}
+
+.sale-block-wrap {
+    border-radius: 30px;
+    width: 335px;
+    height: 561px;
+    background: #3350E9;
+    font-family: "Gilroy", sans-serif;
+}
+
+.sale-block-title {
+    margin-left: 28px;
+    padding-top: 48px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    text-align: left;
+    width: 279px;
+}
+
+.sale-text1 {
+    margin-left: 28px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.5);
+    max-width: 279px;
+}
+
+.sale-list-price {
+    display: flex;
+    align-items: center;
+    margin-bottom: 28px;
+}
+
+.sale-text2 {
+    margin-left: 28px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: -0.02em;
+    color: #FBFBFB;
+    border-radius: 8px;
+    width: 68px;
+    height: 32px;
+    background: rgba(251, 251, 251, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.sale-text3 {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: -0.02em;
+    text-decoration: line-through;
+    color: rgba(251, 251, 251, 0.5);
+    margin-left: 9px;
+    /*display: flex;
+    align-items: center;
+    justify-content: center*/
+}
+
+.sale-text4 {
+    margin-left: 28px;
+    margin-bottom: 28px;
+    margin-right: 28px;
+    height: 161px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    color: rgba(251, 251, 251, 0.7);
+}
+
+
+
+.sale-wrap-btn {
+    width: 335px;
+    height: 561px;
+}
+
+.sale-wrap-btn-list {
+    margin-left: 28px;
+    margin-right: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 4px;
+}
+
+.sale-btn {
+    border: 1px solid rgba(251, 251, 251, 0.2);
+    border-radius: 8px;
+    /*padding: 8px 12px;*/
+    background: #3350E9;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #FBFBFB;
+    height: 32px;
+    margin-bottom: 4px;
+}
+
+.button-btn1 {
+    width: 128px;
+}
+
+.button-btn2 {
+    width: 123px;
+}
+
+.button-btn3 {
+    width: 64px;
+}
+
+.button-btn4 {
+    width: 58px;
+}
+
+.button-btn5 {
+    width: 94px;
+}
+
+.button-btn6 {
+    width: 85px;
+    margin-bottom: 0px;
+}
+
+/* TABLET */
+@media screen and (min-width: 768px) {
+    .sale-title {
+        margin-left: 0px;
+        font-size: 48px;
+    }
+
+    .sale-watch-wrap {
+        flex-direction: row;
+    }
+
+    .sale-watch-list {
+        flex-direction: column;
+        width: 132px;
+        /*height: 558px;*/
+        gap: 10px;
+    }
+
+    .sale-watch-item {
+        width: 132px;
+        height: 132px;
+        margin-bottom: 0px;
+    }
+
+    .sale-img {
+        width: 96px;
+        height: 100px;
+    }
+
+    .sale-watch-image {
+        width: 428px;
+        height: 558px;
+        margin-left: 20px;
+        margin-bottom: 40px;
+    }
+
+    .sale-image1 {
+        /*max-width: 100%;
+        height: auto;
+        margin-bottom: 0;
+        margin-left: 20px;*/
+        width: 328px;
+        height: 398px;
+    }
+
+    .sale-watch {
+        display: flex;
+    }
+
+    .sale-block-wrap{
+        border-radius: 50px;
+        width: 704px;
+        height: 518px;
+    }
+
+    .sale-block-title {
+        margin-left: 60px;
+        padding-top: 60px;
+        padding-bottom: 10px;
+        text-align: left;
+        font-size: 32px;
+        line-height: 1.13;
+        width: 436px;
+    }
+
+    .sale-text1 {
+        margin-left: 60px;
+    }
+
+    .sale-list-price {
+        margin-bottom: 30px;
+    }
+
+    .sale-text2 {
+        margin-left: 60px;
+        font-size: 20px;
+        line-height: 1;
+    }
+
+    .sale-text4 {
+        margin-left: 60px;
+        margin-bottom: 40px;
+        margin-right: 60px;
+        height: 100px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .sale-wrap-btn {
+        width: 458px;
+        /*height: 518px;*/
+    }
+
+    .sale-wrap-btn-list {
+        margin-left: 60px;
+        margin-right: 0px;
+        /*display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;*/
+        gap: 8px;
+    }
+
+    .sale-btn {
+        font-size: 14px;
+        line-height: 1.29;
+        height: 34px;
+        margin-bottom: 8px;
+    }
+
+    .button-btn1 {
+        width: 145px;
+    }
+
+    .button-btn2 {
+        width: 139px;
+    }
+
+    .button-btn3 {
+        width: 70px;
+    }
+
+    .button-btn4 {
+        width: 64px;
+    }
+
+    .button-btn5 {
+        width: 105px;
+    }
+
+    .button-btn6 {
+        width: 95px;
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .sale-watch-wrap {
+        flex-wrap: nowrap;
+    }
+
+    .sale-watch-image {
+        width: 428px;
+        height: 558px;
+        margin-bottom: 0;
+    }
+
+    .sale-image1 {
+        /*width: 428px;
+        height: 558px;
+        margin-left: 20px;
+        margin-bottom: 0;*/
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 0;
+        margin-left: 20px;
+    }
+
+    .sale-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .sale-img {
+        width: 96px;
+        height: 100px;
+    }
+
+    .sale-block-wrap {
+        border-radius: 50px;
+        margin-left: 40px;
+        width: 530px;
+        height: 558px;
+        justify-content: right;
+    }
+
+    .sale-text4 {
+        margin-left: 60px;
+        margin-bottom: 40px;
+        margin-right: 60px;
+        height: 140px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .button-btn6 {
+        margin-bottom: 60px;
+    }
+}
