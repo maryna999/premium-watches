@@ -9,8 +9,8 @@
 .advertisement-content {
     padding: 60px 28px 75px 28px;
     background-image: image-set(
-        url(../images/adverticement/advert-mob1.png) 1x, 
-        url(../images/advertisement/advert-mob2.png) 2x );
+        url(./images/advertisement/advert-mob1.png) 1x, 
+        url(./images/advertisement/advert-mob2.png) 2x );
     background-repeat: no-repeat;
     border-radius: 30px;
     background-color: #0c0c0c;
@@ -68,8 +68,8 @@
     .advertisement-content {
         padding: 80px 64px 95px 64px;
         background-image: image-set(
-            url(../images/adverticement/advert-tab1.png) 1x, 
-            url(../images/advertisement/advert-tab2.png) 2x );
+            url(./images/advertisement/advert-tab1.png) 1x, 
+            url(./images/advertisement/advert-tab2.png) 2x );
         background-repeat: no-repeat;
         border-radius: 30px;
         background-color: #0c0c0c;
@@ -106,8 +106,8 @@
     .advertisement-content {
         padding: 80px 80px 83px 80px;
         background-image: image-set(
-            url(../images/adverticement/advert-desc1.png) 1x, 
-            url(../images/advertisement/advert-desc2.png) 2x );
+            url(./images/advertisement/advert-desc1.png) 1x, 
+            url(./images/advertisement/advert-desc2.png) 2x );
         background-repeat: no-repeat;
         border-radius: 30px;
         background-color: #0c0c0c;
