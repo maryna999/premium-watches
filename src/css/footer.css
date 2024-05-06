@@ -73,22 +73,22 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  line-height: 1.33333;
   color: #fbfbfb;
 }
+
 .footer-menu-iteam {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-
   color: #fbfbfb;
 }
 
 .menu-iteam-a {
   display: inline-block;
+
+  border: var(--background);
   width: calc(50% - 10px);
   vertical-align: top;
-  /* word-spacing: normal; */
   overflow-wrap: break-word;
   word-wrap: break-word;
 }
@@ -96,6 +96,8 @@
 .menu-iteam-h {
   width: 147px;
   height: 64px;
+  margin-left: 10px;
+  border: var(--background);
   display: inline-block;
   width: calc(50% - 10px);
   vertical-align: top;
