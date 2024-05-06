@@ -45,21 +45,35 @@
       </div>
       <picture>
         <source
-          srcset="./images/contact-us/contact-desc1.png 1x, ./images/contact us/contact-desc2.png 2x"
           media="(min-width: 1280px)"
+          srcset="
+            ./images/contact-us/contact-desc1.png 1x,
+            ./images/contact-us/contact-desc2.png 2x
+          "
+          type="image/png"
         />
         <source
-          srcset="./images/contact-us/contact-tab1.png 1x, ./images/contact us/contact-tab2.png 2x"
           media="(min-width: 768px)"
+          srcset="
+            ./images/contact-us/contact-tab2.png 1x,
+            ./images/contact-us/contact-tab2.png 2x
+          "
+          type="image/png"
         />
+
         <source
-          srcset="./images/contact-us/contact-mob1.png 1x, ./images/contact us/contact-mob2.png 2x"
           media="(max-width: 767px)"
+          srcset="
+            ./images/contact-us/contact-mob1.png 1x,
+            ./images/contact-us/contact-mob2.png 2x
+          "
+          type="image/png"
         />
+
         <img
-          class="contact-img"
           src="./images/contact-us/contact-mob1.png"
-          alt="watch on rock"
+          alt="watches on rock"
+          loading="lazy"
         />
       </picture>
     </div>
