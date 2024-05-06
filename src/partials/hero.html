@@ -15,27 +15,37 @@
       <div class="hero-link-container">
         <picture class="hero-picture">
           <source
+            media="(min-width: 1280px)"
             srcset="
               ../images/hero/reviews-desc1.png 1x,
               ../images/hero/reviews-desc2.png 2x
             "
-            media="(min-width: 1280px)"
+            type="image/png"
           />
+
           <source
+            media="(min-width: 768px)"
             srcset="
               ../images/hero/reviews-tab1.png 1x,
               ../images/hero/reviews-tab2.png 2x
             "
-            media="(min-width: 768px)"
+            type="image/png"
           />
+
           <source
+            media="(max-width: 767px)"
             srcset="
               ../images/hero/reviews-mob1.png 1x,
               ../images/hero/reviews-mob2.png 2x
             "
-            media="(max-width: 767px)"
+            type="image/png"
           />
-          <img src="../images/hero/reviews-mob1.png" alt="reviews" />
+          <img
+            class="reviews"
+            src="../images/hero/reviews-mob1.png"
+            alt="reviews"
+            loading="lazy"
+          />
         </picture>
 
         <a href="#footer" class="hero-link">Scroll down</a>
