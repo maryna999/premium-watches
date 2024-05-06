@@ -19,6 +19,7 @@
   display: flex;
   width: 122px;
   height: 34px;
+  gap: 10px;
 }
 
 .socials-footer-box {
@@ -27,6 +28,7 @@
   padding: 8px;
   width: 34px;
   height: 34px;
+  fill: #fbfbfb;
 }
 
 .button {
@@ -86,7 +88,9 @@
   display: inline-block;
   width: calc(50% - 10px);
   vertical-align: top;
-  word-spacing: normal;
+  /* word-spacing: normal; */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .menu-iteam-h {
