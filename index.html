@@ -38,27 +38,36 @@
       <div class="hero-link-container">
         <picture class="hero-picture">
           <source
+            media="(min-width: 1280px)"
             srcset="
               ./images/hero/reviews-desc1.png 1x,
               ./images/hero/reviews-desc2.png 2x
             "
-            media="(min-width: 1280px)"
+            type="image/png"
           />
+
           <source
+            media="(min-width: 768px)"
             srcset="
               ./images/hero/reviews-tab1.png 1x,
               ./images/hero/reviews-tab2.png 2x
             "
-            media="(min-width: 768px)"
+            type="image/png"
           />
+
           <source
+            media="(max-width: 767px)"
             srcset="
               ./images/hero/reviews-mob1.png 1x,
               ./images/hero/reviews-mob2.png 2x
             "
-            media="(max-width: 767px)"
+            type="image/png"
           />
-          <img src="./images/hero/reviews-mob1.png" alt="reviews" />
+          <img
+            src="./images/hero/reviews-mob1.png"
+            alt="reviews"
+            loading="lazy"
+          />
         </picture>
 
         <a href="#footer" class="hero-link">Scroll down</a>
@@ -66,21 +75,30 @@
     </div>
     <picture>
       <source
+        media="(min-width: 1280px)"
         srcset="
           ./images/hero/hero-desc1.jpg 1x,
           ./images/hero/hero-desc2.jpg 2x
         "
-        media="(min-width: 1280px)"
+        type="image/jpg"
       />
+
       <source
-        srcset="./images/hero/hero-tab1.jpg 1x, ./images/hero/hero-tab2.jpg 2x"
         media="(min-width: 768px)"
+        srcset="./images/hero/hero-tab1.jpg 1x, ./images/hero/hero-tab2.jpg 2x"
+        type="image/jpg"
       />
+
       <source
-        srcset="./images/hero/hero-mob1.jpg 1x, ./images/hero/hero-mob2.jpg 2x"
         media="(max-width: 767px)"
+        srcset="./images/hero/hero-mob1.jpg 1x, ./images/hero/hero-mob2.jpg 2x"
+        type="image/jpg"
       />
-      <img src="./images/hero/hero-mob1.jpg" alt="Black watches" />
+      <img
+        src="./images//hero/hero-mob1.jpg"
+        alt="black watches"
+        loading="lazy"
+      />
     </picture>
   </div>
 </section>
@@ -212,21 +230,26 @@
       </div>
       <picture>
         <source
-          srcset="./images/contact-us/contact-desc1.png 1x, ./images/contact us/contact-desc2.png 2x"
           media="(min-width: 1280px)"
+          srcset="/premium-watches/assets/contact-desc1-6007a80e.png 1x, /premium-watches/assets/contact-desc2-9a042cb7.png 2x"
+          type="image/png"
         />
         <source
-          srcset="./images/contact-us/contact-tab1.png 1x, ./images/contact us/contact-tab2.png 2x"
           media="(min-width: 768px)"
+          srcset="/premium-watches/assets/contact-tab2-3dc707b5.png 1x, /premium-watches/assets/contact-tab2-3dc707b5.png 2x"
+          type="image/png"
         />
+
         <source
-          srcset="./images/contact-us/contact-mob1.png 1x, ./images/contact us/contact-mob2.png 2x"
           media="(max-width: 767px)"
+          srcset="/premium-watches/assets/contact-mob1-2236b25c.png 1x, /premium-watches/assets/contact-mob2-5350cadc.png 2x"
+          type="image/png"
         />
+
         <img
-          class="contact-img"
           src="/premium-watches/assets/contact-mob1-2236b25c.png"
-          alt="watch on rock"
+          alt="watches on rock"
+          loading="lazy"
         />
       </picture>
     </div>
