@@ -149,9 +149,21 @@
   }
 
   .footer-logo-block {
+    width: 160px;
+    height: 125px;
+    margin: 0;
+  }
+  .footer-logo-descrip {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .footer-text-wrap {
+    margin: 0 auto;
   }
   .number-wrap {
-    display: flex;
+    width: 160px;
+    height: 48px;
   }
   .have-the-time {
     font-weight: 600;
@@ -161,11 +173,12 @@
     text-align: center;
     color: #fbfbfb;
     display: flex;
-    flex-wrap: wrap;
+
     align-items: center;
     justify-content: center;
     padding-left: 50px;
     padding-right: 50px;
+    width: 524px;
   }
 
   .footer-logo-wrap {
@@ -185,4 +198,22 @@
   }
 }
 @media screen and (min-width: 1280px) {
+  .footer-logo-descrip {
+    display: flex;
+  }
+  .footer-logo-block {
+    order: 1;
+  }
+  .number-wrap {
+    order: 3;
+  }
+  .footer-text-wrap {
+    display: flex;
+    padding-bottom: 126px;
+    margin: 0;
+    order: 2;
+  }
+  .have-the-time {
+    padding: 0;
+  }
 }
