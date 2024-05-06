@@ -3,10 +3,8 @@
   border-radius: 30px;
   padding: 48px 28px;
 }
-
 .logo-footer {
 }
-
 .watchcharm {
   font-weight: 500;
   font-size: 16px;
@@ -15,13 +13,14 @@
 }
 .socials-footer {
   padding-top: 20px;
-  margin-bottom: 60px;
   display: flex;
   width: 122px;
   height: 34px;
   gap: 10px;
 }
-
+.footer-logo-block {
+  margin-bottom: 40px;
+}
 .socials-footer-box {
   border: 1px solid rgba(251, 251, 251, 0.1);
   border-radius: 10px;
@@ -29,36 +28,38 @@
   width: 34px;
   height: 34px;
 }
-
 .svg-soc {
   fill: #fbfbfb;
+  text-align: center;
+}
+.number-wrap {
 }
 
-.button {
-  border: 1px solid #838383;
-  width: 152px;
-  height: 44px;
-  border-radius: 30px;
-  background-color: #0c0c0c;
-}
-.button-title {
+.number-title {
   justify-content: center;
   text-align: center;
   font-weight: 500;
   font-size: 12px;
   color: #fbfbfb;
+  border: 1px solid rgba(251, 251, 251, 0.2);
+  border-radius: 16px;
+  width: 152px;
+  height: 44px;
+  background-color: #0c0c0c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
 .have-the-time {
   padding-top: 40px;
   padding-bottom: 92px;
-  line-height: 24px;
+  font-weight: 600;
+  font-size: 20px;
   line-height: 1.2;
   letter-spacing: -0.02em;
   text-align: center;
   color: #fbfbfb;
 }
-
 .text-the-watch-spot {
   display: flex;
   width: 152px;
@@ -71,12 +72,19 @@
   text-align: right;
   color: #838383;
 }
-
 .pioneer {
+  margin-right: 0;
   font-weight: 500;
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.33333;
   color: #fbfbfb;
+  font-style: normal;
+}
+
+.footer-menu {
+  display: flex;
+  margin-right: 0;
+  justify-content: space-between;
 }
 
 .footer-menu-iteam {
@@ -84,42 +92,40 @@
   font-size: 12px;
   line-height: 16px;
   color: #fbfbfb;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  white-space: nowrap;
 }
-
 .menu-iteam-a {
   display: inline-block;
-
   border: var(--background);
   width: calc(50% - 10px);
   vertical-align: top;
   overflow-wrap: break-word;
-  word-wrap: break-word;
-}
-
-.menu-iteam-h {
   width: 147px;
-  height: 64px;
+}
+.menu-iteam-h {
+  display: flex;
+  width: 83px;
   margin-left: 10px;
   border: var(--background);
   display: inline-block;
-  width: calc(50% - 10px);
+  max-width: 83px;
   vertical-align: top;
   word-spacing: normal;
 }
-
 .vector-line {
   display: inline-flex;
   margin-bottom: 24px;
   margin-top: 24px;
-  background-color: #838383;
+  background-color: rgba(251, 251, 251, 0.1);
   width: 100%;
   height: 1px;
 }
-
 .privacy-policy {
   margin-left: 20px;
 }
-
 .the-watch-spot {
   padding-bottom: 8px;
   font-weight: 500;
@@ -130,5 +136,53 @@
   color: #838383;
 }
 
+.number-title:active,
+.number-title:focus,
+.number-title:hover {
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+}
+
 @media screen and (min-width: 768px) {
+  .footer-container {
+    padding: 40px 40px 28px 40px;
+  }
+
+  .footer-logo-block {
+  }
+  .number-wrap {
+    display: flex;
+  }
+  .have-the-time {
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 1.14286;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #fbfbfb;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .footer-logo-wrap {
+    display: flex;
+    justify-content: space-between;
+  }
+  .menu-iteam-a {
+    width: auto;
+  }
+  .menu-iteam-h {
+    min-width: 162px;
+  }
+  .footer-copyright {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 1280px) {
 }
