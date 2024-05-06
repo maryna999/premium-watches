@@ -28,6 +28,9 @@
   padding: 8px;
   width: 34px;
   height: 34px;
+}
+
+.svg-soc {
   fill: #fbfbfb;
 }
 
@@ -125,4 +128,7 @@
   line-height: 1.4;
   letter-spacing: -0.02em;
   color: #838383;
+}
+
+@media screen and (min-width: 768px) {
 }
