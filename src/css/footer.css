@@ -1,8 +1,7 @@
 .footer-container {
-  padding: 40, 28, 28, 28;
+  padding: 40px 28px 28px 28px;
   background-color: #0c0c0c;
   border-radius: 30px;
-  padding: 48px 28px;
 }
 .logo-footer {
 }
@@ -103,7 +102,7 @@
   width: calc(50% - 10px);
   vertical-align: top;
   overflow-wrap: break-word;
-  /* width: 147px; */
+  width: 147px;
 }
 .menu-iteam-h {
   display: flex;
@@ -173,6 +172,7 @@
   }
 
   .pioneer {
+    font-size: 14px;
   }
 
   .number-wrap {
@@ -189,7 +189,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 524px;
   }
 
   .footer-logo-wrap {
@@ -214,7 +213,6 @@
   }
 
   .the-watch-spot {
-    padding-bottom: 0;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -248,5 +246,9 @@
 
   .the-watch-spot {
     font-size: 14px;
+  }
+  .text-the-watch-spot{
+    font-size: 14px;
+    width: 204px;
   }
 }
