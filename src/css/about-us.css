@@ -1,0 +1,105 @@
+.about {
+  max-width: 375px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.container {
+  padding: 0px 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.about-div {
+  border-radius: 30px;
+  background-color: #f3f3f3;
+  padding: 40px 20px;
+}
+
+.about-title {
+  font-family: "Gilroy", sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    color: #0c0c0c;
+    margin-bottom: 28px;
+}
+
+.about-subtitle {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    max-width: 295px;
+    margin-bottom: 20px;
+}
+
+.about-sub {
+  font-weight: 500;
+    font-size: 14px;
+    line-height: 1.28571;
+    letter-spacing: -0.02em;
+    color: rgba(12, 12, 12, 0.7);
+    max-width: 295px;
+    margin-bottom: 40px;
+}
+
+.about-btn {
+  border-radius: 16px;
+    width: 160px;
+    height: 48px;
+    background-color: #3350e9;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+      font-size: 14px;
+      line-height: 1.28571;
+      text-align: center;
+      color: #fbfbfb;
+}
+
+.about-div-div {
+  border-radius: 30px;
+    width: 335px;
+    height: 446px;
+    /* background-image: rgba(12, 12, 12, 0.2), url("../images/about\ us/about-mob1.jpg 1x"); */
+}
+
+@media screen and (min-width: 768px) {
+  .about {}
+  
+    .container {}
+  
+    .about-div {}
+  
+    .about-title {}
+  
+    .about-subtitle {}
+  
+    .about-sub {}
+  
+    .about-btn {}
+  
+    .about-div-div {}
+
+}
+
+@media screen and (min-width: 1158px) {
+  .about {}
+  
+    .container {}
+  
+    .about-div {}
+  
+    .about-title {}
+  
+    .about-subtitle {}
+  
+    .about-sub {}
+  
+    .about-btn {}
+  
+    .about-div-div {}
+
+}
