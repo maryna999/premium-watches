@@ -1,39 +1,31 @@
 .about {
-  max-width: 375px;
-  margin-top: 60px;
   margin-bottom: 60px;
-}
-
-.container {
-  padding: 0px 20px;
-    width: 100%;
-    height: 100%;
 }
 
 .about-div {
   border-radius: 30px;
   background-color: #f3f3f3;
   padding: 40px 20px;
+ margin-bottom: 20px;
 }
 
 .about-title {
-  font-family: "Gilroy", sans-serif;
     font-weight: 600;
     font-size: 32px;
-    line-height: 1;
-    letter-spacing: -0.02em;
     color: #0c0c0c;
     margin-bottom: 28px;
+    line-height: 32px;
+    letter-spacing: -0.64px;
 }
 
 .about-subtitle {
   font-weight: 500;
     font-size: 14px;
-    line-height: 1.28571;
-    letter-spacing: -0.02em;
     color: rgba(12, 12, 12, 0.7);
     max-width: 295px;
     margin-bottom: 20px;
+    line-height: 18px;
+    letter-spacing: -0.28px;
 }
 
 .about-sub {
@@ -53,53 +45,68 @@
     background-color: #3350e9;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     font-weight: 500;
-      font-size: 14px;
-      line-height: 1.28571;
-      text-align: center;
-      color: #fbfbfb;
-}
-
-.about-div-div {
-  border-radius: 30px;
-    width: 335px;
-    height: 446px;
-    /* background-image: rgba(12, 12, 12, 0.2), url("../images/about\ us/about-mob1.jpg 1x"); */
+    font-size: 14px;
+    line-height: 1.28571;
+    text-align: center;
+    color: #fbfbfb;
+    border: none;
 }
 
 @media screen and (min-width: 768px) {
-  .about {}
+  .about {
+    padding-bottom: 80px;
+  }
+    .about-div {
+    width: 704px;
+    padding: 80px 60px;
+    margin-bottom: 40px;
+    }
   
-    .container {}
+    .about-title {
+        font-size: 48px;
+        line-height: 44px;
+        letter-spacing: -0.96px;
+        margin-bottom: 40px;
+    }
   
-    .about-div {}
+    .about-subtitle {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.32px;
+      max-width: 584px;
+    }
   
-    .about-title {}
-  
-    .about-subtitle {}
-  
-    .about-sub {}
-  
-    .about-btn {}
-  
-    .about-div-div {}
+    .about-sub {
+      font-size: 16px;
+      line-height: 20px;
+      letter-spacing: -0.32px;
+      max-width: 584px;
+      margin-bottom: 60px;
+    }
 
 }
 
-@media screen and (min-width: 1158px) {
-  .about {}
+@media screen and (min-width: 1280px) {
+  .about {
+    padding-bottom: 100px;
+  }
+  .about-content{
+    display: flex;
+    gap: 40px;
+  }
   
-    .container {}
+    .about-div {
+      width: 580px;
+      margin-bottom: 0;
+    }
   
-    .about-div {}
+    .about-subtitle {
+      max-width: 460px;
+    }
   
-    .about-title {}
-  
-    .about-subtitle {}
-  
-    .about-sub {}
-  
-    .about-btn {}
-  
-    .about-div-div {}
+    .about-sub {
+      max-width: 460px;
+      margin-bottom: 40px;
+    }
 
 }
