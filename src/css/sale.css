@@ -308,6 +308,7 @@ margin-bottom: 0;
 
     .sale-watch-wrap {
         flex-wrap: nowrap;
+        margin-bottom: 0;
     }
 
     .sale-watch-image {
