@@ -175,8 +175,8 @@ margin-top: 32px;
     }
     .form-container{
     padding: 50px 60px;
-    padding-bottom: 0;
     width: 580px;
+    margin-bottom: 0;
     }
 }
 
