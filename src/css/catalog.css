@@ -30,6 +30,9 @@
   line-height: 1.25;
   letter-spacing: -0.02em;
   color: #0c0c0c;
+  white-space: nowrap;
+  overflow:hidden;
+  text-overflow: ellipsis;
 <<<<<<< Updated upstream
 =======
   padding-left: 28px;
@@ -116,8 +119,7 @@
   }
 <<<<<<< Updated upstream
 
-  .catalog-item {
-    width: calc(100%-16px) / 2;
+ 
 =======
   .title-mob {
     display: none;
@@ -147,7 +149,7 @@
 
   .catalog-item {
 <<<<<<< Updated upstream
-    width: calc(100%-46) / 3;
+ 
 =======
     width: 368px;
   }
