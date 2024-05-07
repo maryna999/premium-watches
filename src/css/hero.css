@@ -1,0 +1,127 @@
+.hero{
+padding-bottom: 60px;
+color: #0C0C0C;
+padding-top: 60px;
+}
+
+.hero-container{
+padding-bottom: 28px;
+}
+
+.hero-title-container{
+flex-wrap: wrap;
+}
+
+.hero-title{
+font-size: 40px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: -0.8px;
+padding-bottom: 20px;
+}
+
+.hero-span{
+color: #3350E9;
+}
+
+.hero-text{
+color: rgba(12, 12, 12, 0.70);
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.28px;
+padding-bottom: 28px; 
+}
+
+
+.hero-link-container{
+    display: flex;
+    align-items: flex-end;
+    gap: 155px;
+}
+
+.hero-link{
+font-size: 14px;
+font-weight: 500;
+line-height: 18px;
+letter-spacing: -0.28px;
+text-decoration-line: underline;
+}
+
+.hero-link:hover{
+    color: rgba(51, 80, 233, 1);
+}
+
+.hero-link:focus {
+    color: rgba(51, 80, 233, 1);
+}
+
+.hero-link:active {
+    color: rgba(51, 80, 233, 1);
+}
+
+@media screen and (min-width: 768px){
+    .hero{
+      padding-bottom: 80px;
+      padding-top: 80px;
+    }
+    .hero-container{
+        display: flex;
+        gap: 11px;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    .hero-title-container{
+flex: 1;
+max-width: 557px;
+    }
+
+    .hero-title{
+        font-size: 70px;
+        line-height: 60px;
+        letter-spacing: -1.4px;
+        width: 557px;
+    }
+    .hero-text{
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.32px;
+    width: 480px;
+    padding-bottom: 0;
+    }
+
+    .hero-link-container{
+        flex-direction: column;
+        gap: 180px;
+        width: 136px;
+    }
+
+    .hero-link{
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: -0.4px;
+    }
+}
+
+@media screen and (min-width: 1280px){
+    .hero{
+       padding-bottom: 100px;
+       padding-top: 100px;
+    }
+.hero-container {
+gap: 407px;
+align-items: center;
+         }
+    .hero-title-container{
+        max-width: 597px;
+    }
+    .hero-title{
+    font-size: 72px;
+    line-height: 63px;
+    letter-spacing: -1.44px;
+    width: 597px;
+    }
+        .hero-link-container{
+            gap: 189px;
+        }
+}

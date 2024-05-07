@@ -1,0 +1,70 @@
+<section class="hero" id="hero">
+  <div class="container">
+    <div class="hero-container">
+      <div class="hero-title-container">
+        <h1 class="hero-title">
+          Welcome to our <span class="hero-span">collection</span> of premium
+          watches
+        </h1>
+        <p class="hero-text">
+          Our watches are not just timepieces, but also an expression of your
+          personality and lifestyle. From classic designs to modern ones, we
+          have a watch to suit every taste and occasion.
+        </p>
+      </div>
+      <div class="hero-link-container">
+        <picture class="hero-picture">
+          <source
+            media="(min-width: 1280px)"
+            srcset="
+              ./images/hero/pic1-desc1.png 1x,
+              ./images/hero/pic1-desc2.png 2x
+            "
+            type="image/png"
+          />
+          <source
+            media="(min-width: 768px)"
+            srcset="
+              ./images/hero/pic1-tab1.png 1x,
+              ./images/hero/pic1-tab2.png 2x
+            "
+            type="image/png"
+          />
+          <source
+            media="(max-width: 767px)"
+            srcset="
+              ./images/hero/pic1-mob1.png 1x,
+              ./images/hero/pic1-mob2.png 2x
+            "
+            type="image/png"
+          />
+          <img src="./images/hero/pic1-mob1.png" alt="reviews" loading="lazy" />
+        </picture>
+
+        <a href="#footer" class="hero-link">Scroll down</a>
+      </div>
+    </div>
+    <picture>
+      <source
+        media="(min-width: 1280px)"
+        srcset="
+          ./images/hero/pic2-desc1.jpg 1x,
+          ./images/hero/pic2-desc2.jpg 2x
+        "
+        type="image/jpg"
+      />
+      <source
+        media="(min-width: 768px)"
+        srcset="./images/hero/pic2-tab1.jpg 1x, ./images/hero/pic2-tab2.jpg 2x"
+        type="image/jpg"
+      />
+      <source
+        media="(max-width: 767px)"
+        srcset="./images/hero/pic2-mob1.jpg 1x, ./images/hero/pic2-mob2.jpg 2x"
+        srcset="./images/hero/hero-mob1.jpg 1x, ./images/hero/hero-mob2.jpg 2x"
+        type="image/jpg"
+      />
+      <img src="./images/hero/pic2-mob1.jpg" alt="black-watch" loading="lazy" />
+    </picture>
+  </div>
+</section>
