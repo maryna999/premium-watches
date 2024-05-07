@@ -1,4 +1,5 @@
 .footer-container {
+  padding: 40, 28, 28, 28;
   background-color: #0c0c0c;
   border-radius: 30px;
   padding: 48px 28px;
@@ -14,8 +15,6 @@
 .socials-footer {
   padding-top: 20px;
   display: flex;
-  width: 122px;
-  height: 34px;
   gap: 10px;
 }
 .footer-logo-block {
@@ -84,6 +83,7 @@
 .footer-menu {
   display: flex;
   margin-right: 0;
+  gap: 49px;
   justify-content: space-between;
 }
 
@@ -94,7 +94,7 @@
   color: #fbfbfb;
   display: flex;
   flex-wrap: wrap;
-  gap: 16px;
+  gap: 8px 16px;
   white-space: nowrap;
 }
 .menu-iteam-a {
@@ -103,12 +103,11 @@
   width: calc(50% - 10px);
   vertical-align: top;
   overflow-wrap: break-word;
-  width: 147px;
+  /* width: 147px; */
 }
 .menu-iteam-h {
   display: flex;
   width: 83px;
-  margin-left: 10px;
   border: var(--background);
   display: inline-block;
   max-width: 83px;
@@ -149,10 +148,8 @@
   }
 
   .footer-logo-block {
-    width: 160px;
-    height: 125px;
-    margin: 0;
   }
+
   .footer-logo-descrip {
     display: flex;
     justify-content: space-between;
@@ -160,7 +157,24 @@
   }
   .footer-text-wrap {
     margin: 0 auto;
+    width: 524px;
   }
+
+  .footer-menu-iteam {
+    gap: 19px;
+  }
+
+  .watchcharm {
+    font-size: 20px;
+  }
+
+  .number-title {
+    font-size: 14px;
+  }
+
+  .pioneer {
+  }
+
   .number-wrap {
     width: 160px;
     height: 48px;
@@ -173,11 +187,8 @@
     text-align: center;
     color: #fbfbfb;
     display: flex;
-
     align-items: center;
     justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
     width: 524px;
   }
 
@@ -196,6 +207,15 @@
     display: flex;
     flex-direction: row;
   }
+
+  .vector-line {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  .the-watch-spot {
+    padding-bottom: 0;
+  }
 }
 @media screen and (min-width: 1280px) {
   .footer-logo-descrip {
@@ -203,6 +223,7 @@
   }
   .footer-logo-block {
     order: 1;
+    margin: 0;
   }
   .number-wrap {
     order: 3;
@@ -215,5 +236,17 @@
   }
   .have-the-time {
     padding: 0;
+  }
+
+  .footer-menu-iteam {
+    font-size: 14px;
+  }
+
+  .pioneer {
+    font-size: 14px;
+  }
+
+  .the-watch-spot {
+    font-size: 14px;
   }
 }
