@@ -74,6 +74,27 @@
     fill: #FBFBFB;
 }
 
+.mob-nav .current {
+    position: relative;
+}
+
+.current {
+    position: relative;
+}
+
+.menu-link.current::after {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 50%;
+    display: block;
+    content: '';
+    border: solid 4px #3350E9;
+    border-radius: 50%;
+    margin-top: 2px;
+    transform: translate(-50%);
+}
+
 @media screen and (min-width: 768px){
 .menu-overlay{
     background-image: image-set(url(../images/header-menu/header-tab1.jpg) 1x, url(../images/header-menu/header-tab2.jpg) 2x);
