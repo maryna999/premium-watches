@@ -15,10 +15,10 @@
     display: flex;
     gap: 5px;
     width: 335px;
+        margin-bottom: 20px;
 }
 
 .sale-watch-item {
-    margin-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,11 +49,10 @@
     height: 561px;
     background: #3350E9;
     font-family: "Gilroy", sans-serif;
+    padding: 48px 28px;
 }
 
 .sale-block-title {
-    margin-left: 28px;
-    padding-top: 48px;
     padding-bottom: 10px;
     font-weight: 600;
     font-size: 24px;
@@ -65,7 +64,6 @@
 }
 
 .sale-text1 {
-    margin-left: 28px;
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 14px;
@@ -79,10 +77,10 @@
     display: flex;
     align-items: center;
     margin-bottom: 28px;
+    gap: 9px;
 }
 
 .sale-text2 {
-    margin-left: 28px;
     font-weight: 600;
     font-size: 16px;
     line-height: 1.25;
@@ -111,7 +109,6 @@
 }
 
 .sale-text4 {
-    margin-left: 28px;
     margin-bottom: 28px;
     margin-right: 28px;
     height: 161px;
@@ -130,13 +127,12 @@
 }
 
 .sale-wrap-btn-list {
-    margin-left: 28px;
     margin-right: 28px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    gap: 4px;
+    gap: 8px;
 }
 
 .sale-btn {
