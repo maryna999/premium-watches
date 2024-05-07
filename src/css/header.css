@@ -1,146 +1,142 @@
 .header {
-    border-bottom: 1px solid rgba(12, 12, 12, 0.1);
-  }
-  
-  .header-container {
-    margin: 0 auto;
-    display: flex;
-    align-items: center;
-  }
-  
-  .logo {
-    font-weight: 500;
-    letter-spacing: -0.02em;
-    color: #0c0c0c;
-  }
+  border-bottom: 1px solid rgba(12, 12, 12, 0.1);
+}
+
+.header-container {
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  color: #0c0c0c;
+}
+
 .nav-menu,
 .social {
-display: none;
+  display: none;
 }
+
 .header {
-padding: 20px 0;
+  padding: 20px 0;
 }
-    
+
 .header-container {
-justify-content: space-between;
+  justify-content: space-between;
 }
-    
+
 .menu-open-btn {
   background-color: transparent;
   border: none;
   line-height: 0;
   stroke: #0c0c0c;
-  }
-    
- .menu-open-btn-icon {
+}
+
+.menu-open-btn-icon {
   width: 34px;
   height: 34px;
+}
+
+
+
+.link-current {
+  width: 38px;
+}
+
+.current-icon {
+  fill: #3350E9;
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 26px 0;
   }
 
-      
-    
-.link-current{
- width: 38px;
-}
-.current-icon{
-fill: #3350E9;
-}
-
-@media screen and (min-width: 768px){
-.header{
-  padding: 26px 0;
-}
-.logo{
-  font-size: 20px;
+  .logo {
+    font-size: 20px;
     letter-spacing: -0.4px;
-}
-.menu-open-btn-icon{
-  width: 40px;
-  height: 40px;
-}
-
-     }
-
-
-  @media  screen and (min-width: 1280px) {
-    .header-container {
-      max-width: 1280px;
-      padding: 0 65px;
-    }
-  
-    .menu-open-btn {
-      display: none;
-    }
-  
-    .logo {
-      margin-right: 203px;
-    }
-  
-    .page-nav {
-      display: flex;
-      align-items: center;
-    }
-
-  
-    .nav-menu {
-      display: flex;
-      gap: 40px;
-    }
-  
-    .nav-menu-link {
-      position: relative;
-      font-weight: 500;
-      font-size: 14px;
-      line-height: 1.29;
-      color: #0c0c0c;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      gap: 2px;
-    }
-
-  
-    .social {
-      display: flex;
-      gap: 10px;
-      margin-left: 203px;
-    }
-  
-    .social-link {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 36px;
-      height: 36px;
-      border: 1px solid rgba(12, 12, 12, 0.1);
-      border-radius: 10px;
-      line-height: 0;
-      transition: border-color 250ms linear;
-    }
-  
-    .social-link:hover,
-    .social-link:focus {
-      border-color: rgba(51, 80, 233, 0.1);
-    }
-  
-    .social-icon {
-      fill: #0c0c0c;
-      opacity: 0.8;
-      transition: fill 250ms linear, opacity 250ms linear;
-    }
-  
-    .social-link:hover .social-icon,
-    .social-link:focus .social-icon {
-      fill: #3350e9;
-      opacity: 1;
-    }
   }
 
-  
+  .menu-open-btn-icon {
+    width: 40px;
+    height: 40px;
+  }
 
-  
+}
 
-  
 
-  
- 
+@media screen and (min-width: 1280px) {
+  .header-container {
+    max-width: 1280px;
+    padding: 0 65px;
+  }
+
+  .menu-open-btn {
+    display: none;
+  }
+
+  .logo {
+    margin-right: 203px;
+  }
+
+  .page-nav {
+    display: flex;
+    align-items: center;
+  }
+
+
+  .nav-menu {
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav-menu-link {
+    position: relative;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #0c0c0c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+  }
+
+
+  .social {
+    display: flex;
+    gap: 10px;
+    margin-left: 203px;
+  }
+
+  .social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border: 1px solid rgba(12, 12, 12, 0.1);
+    border-radius: 10px;
+    line-height: 0;
+    transition: border-color 250ms linear;
+  }
+
+  .social-link:hover,
+  .social-link:focus {
+    border-color: rgba(51, 80, 233, 0.1);
+  }
+
+  .social-icon {
+    fill: #0c0c0c;
+    opacity: 0.8;
+    transition: fill 250ms linear, opacity 250ms linear;
+  }
+
+  .social-link:hover .social-icon,
+  .social-link:focus .social-icon {
+    fill: #3350e9;
+    opacity: 1;
+  }
+}
