@@ -1,43 +1,109 @@
 <header class="header" id="header">
-    <div class="container header-container">
-        <a href="./index.html" class="logo">watchcharm</a>
-        <nav class="header-nav">
-            <ul class="header-list">
-                <li class="header-list-item "><a href="#hero" class="header-list-link home">Home</a></li>
-                <li class="header-list-item"><a href="#about-us" class="header-list-link home">About Us</a></li>
-                <li class="header-list-item"><a href="#catalog" class="header-list-link home">Catalog</a></li>
-                <li class="header-list-item"><a href="#sale" class="header-list-link home">Sale</a></li>
-                <li class="header-list-item"><a href="#reviews" class="header-list-link home">Reviews</a></li>
-                <li class="header-list-item"><a href="#contact-us" class="header-list-link home ">Contact Us</a></li>
-            </ul>
-        </nav>
-        <ul class="header-soc-list">
-            <li class="header-soc-item">
-                <a href="https://www.facebook.com/goITclub/" target="_blank" class="header-soc-link">
-                    <svg class="header-soc-svg" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                    </svg>
-                </a>
+  <div class="header-container">
+       <nav class="page-nav">
+           <a class="logo" href="./index.html">watchcharm</a>
+         <ul class="nav-menu">
+            <li class="nav-menu-item">
+               <a class="nav-menu-link" href="./index.html">Home</a>
             </li>
-            <li class="header-soc-item">
-                <a href="https://www.instagram.com/goitclub/" target="_blank" class="header-soc-link">
-                    <svg class="header-soc-svg" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                    </svg>
-                </a>
+            <li class="nav-menu-item">
+             <a href="#about-us" class="nav-menu-link smooth-scroll" >About Us</a>
             </li>
-            <li class="header-soc-item">
-                <a href="https://www.youtube.com/c/GoIT" target="_blank" class="header-soc-link">
-                    <svg class="header-soc-svg" width="20" height="20">
-                        <use href="./images/symbol-defs.svg#icon-youtube"></use>
+            <li class="nav-menu-item">
+             <a href="#catalog" class="nav-menu-link smooth-scroll" >Catalog</a>
+            </li>
+            <li class="nav-menu-item">
+                <a class="nav-menu-link smooth-scroll" href="#sale">Sale</a>
+            </li>
+            <li class="nav-menu-item">
+                <a class="nav-menu-link smooth-scroll" href= "#review">Reviews</a>
+            </li>
+            <li class="nav-menu-item">
+                <a class="nav-menu-link smooth-scroll" href="#contact-us">Contact Us</a >
+            </li>
+          </ul>
+       </nav>
+        <ul class="social">
+            <li class="social-item">
+              <a class="social-link" href="https://www.facebook.com/goITclub/" target="_blank" >
+                <svg class="social-icon" width="20" height="20" aria-label="facebook icon">
+                   <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="https://www.instagram.com/goitclub/" target="_blank">
+                <svg class="social-icon" width="20" height="20" aria-label="instagram icon" >
+                   <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                </svg>
+               </a>
+            </li>
+            <li class="social-item">
+                 <a class="social-link" href="https://www.youtube.com/c/GoIT" target="_blank" >
+                    <svg class="social-icon" width="20" height="20" aria-label="youtube icon" >
+                       <use href="./images/symbol-defs.svg#icon-youtube"></use>
                     </svg>
-                </a>
+                  </a>
             </li>
         </ul>
-        <button type="button" class="header-modal-btm">
-            <svg class="header-modal-svg" width="28" height="14">
-                <use href="./img/symbol-defs.svg#icon-menu"></use>
+      <button class="menu-open-btn" type="button" id="openbutton">
+            <svg class="menu-open-btn-icon" aria-label="menu open icon">
+                <use href="./images/symbol-defs.svg#icon-menu"></use>
             </svg>
-        </button>
-    </div>
+       </button>
+  </div>
+ 
 </header>
+<!--
+   <div class="backdrop" id="mobile-menu">
+  <div class="sidebar-menu">
+  <button class="menu-close-btn" type="button" id="closebutton">
+  <svg class="menu-close-icon" aria-label="menu close icon">
+  <use href="./images/symbol-defs.svg#icon-x"></use>
+  </svg>
+  </button> 
+  <ul class="sidebar-nav-list">
+  <li class="sidebar-nav-item">
+  <a class="sidebar-nav-link" href="./index.html">Home</a>
+  </li>
+  <li class="sidebar-nav-item">
+  <a class="sidebar-nav-link smooth-scroll" href="#about-us">About Us</a>
+  </li>
+  <li class="sidebar-nav-item">
+  <a class="sidebar-nav-link smooth-scroll" href="#catalog" >Catalog</a>
+  </li>
+  <li class="sidebar-nav-item">
+  <a class="sidebar-nav-link smooth-scroll" href="#sale">Sale</a>
+  </li>
+  <li class="sidebar-nav-item">
+  <a class="sidebar-nav-link smooth-scroll" href="#review">Reviews</a>
+  </li>
+  <li class="sidebar-nav-item">
+  <a class="sidebar-nav-link smooth-scroll" href="#contact-us" >Contact Us</a>
+  </li>
+  </ul>
+  <ul class="sidebar-social">
+  <li class="sidebar-social-item">
+  <a class="sidebar-social-link" href="https://www.facebook.com/goITclub/" target="_blank">
+  <svg class="sidebar-social-icon" aria-label="facebook icon">
+  <use href="./images/symbol-defs.svg#icon-facebook"></use>
+  </svg>
+  </a>
+  </li>
+  <li class="sidebar-social-item">
+  <a class="sidebar-social-link" href="https://www.instagram.com/goitclub/" target="_blank" >
+  <svg class="sidebar-social-icon" aria-label="instagram icon">
+  <use href="./images/symbol-defs.svg#icon-instagram"></use>
+  </svg>
+  </a>
+  </li>
+  <li class="sidebar-social-item">
+  <a class="sidebar-social-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+  <svg class="sidebar-social-icon" aria-label="youtube icon">
+  <use href="./images/symbol-defs.svg#icon-youtube"></use>
+  </svg>
+  </a>
+  </li>
+  </ul>
+  </div>
+  </div> -->
