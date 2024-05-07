@@ -30,6 +30,16 @@
   fill: #fbfbfb;
   text-align: center;
 }
+.svg-soc:hover{
+fill: rgba(251, 251, 251, 1);
+}
+.svg-soc:focus {
+  fill: rgba(251, 251, 251, 1);
+}
+.svg-soc:active {
+  fill: rgba(251, 251, 251, 1);
+}
+
 .number-wrap {
 }
 

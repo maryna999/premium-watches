@@ -40,15 +40,6 @@
 }
 
 
-
-.link-current {
-  width: 38px;
-}
-
-.current-icon {
-  fill: #3350E9;
-}
-
 @media screen and (min-width: 768px) {
   .header {
     padding: 26px 0;
@@ -98,10 +89,6 @@
     font-size: 14px;
     line-height: 1.29;
     color: #0c0c0c;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 2px;
   }
 
 
@@ -139,4 +126,27 @@
     fill: #3350e9;
     opacity: 1;
   }
+ .page-nav {
+    position: relative;
+  }
+    .page-nav .current {
+      position: relative;
+    }
+  
+    .current {
+      position: relative;
+    }
+  
+    .nav-menu-link.current::after {
+      position: absolute;
+        width: 8px;
+        height: 8px;
+        left: 50%;
+        display: block;
+        content: '';
+        border: solid 4px #3350E9;
+        border-radius: 50%;
+        margin-top: 2px;
+        transform: translate(-50%);
+    }
 }

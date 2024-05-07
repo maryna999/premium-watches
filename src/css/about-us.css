@@ -51,6 +51,17 @@ padding-bottom: 60px;
     color: #fbfbfb;
     border: none;
 }
+.about-btn:hover{
+color: rgba(31, 60, 212, 1);
+}
+
+.about-btn:focus {
+  color: rgba(31, 60, 212, 1);
+}
+
+.about-btn:active {
+  color: rgba(31, 60, 212, 1);
+}
 
 @media screen and (min-width: 768px) {
   .about {
