@@ -119,6 +119,7 @@
         background-color: #0c0c0c;
         display: flex;
         gap: 140px;
+        height: 298px;
     }
     
     .advertisement-title {

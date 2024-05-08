@@ -85,7 +85,7 @@ display: flex;
 }
 
 .text-content { /* p */
-width: 272px;
+max-width: 272px;
 font-size: 16px;
 line-height: 20px;
 letter-spacing: -0.32px;
@@ -112,7 +112,7 @@ flex-direction: column;
 } 
 
 .text-content { /* p*/
-    width: 298px;
+    max-width: 298px;
 }
 .content-reviews{
     width: 370px;
