@@ -31,6 +31,12 @@
   fill: #fbfbfb;
   text-align: center;
 }
+
+.svg-soc:active,
+.svg-soc:focus,
+.svg-soc:hover {
+}
+
 .number-wrap {
 }
 
