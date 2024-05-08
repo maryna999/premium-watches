@@ -28,10 +28,12 @@
 }
 .svg-soc {
   fill: #fbfbfb;
+  opacity: 0.8;
   text-align: center;
 }
 .svg-soc:hover{
 fill: rgba(251, 251, 251, 1);
+opacity: 1;
 }
 .svg-soc:focus {
   fill: rgba(251, 251, 251, 1);
