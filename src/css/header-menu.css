@@ -1,18 +1,19 @@
 .menu-overlay {
-    width: 100%;
+    width: 200px;
     height: 100%;
     position: fixed;
-    top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-image: image-set(url(../images/header-menu/header-mob1.jpg) 1x, url(../images/header-menu/header-mob2.jpg) 2x);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 20px 20px 40px 39px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-        opacity: 0;
-            visibility: hidden;
-            pointer-events: none;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
 }
 
 .menu-close-btn {
@@ -97,8 +98,8 @@
 
 @media screen and (min-width: 768px){
 .menu-overlay{
+    width: 330px;
     background-image: image-set(url(../images/header-menu/header-tab1.jpg) 1x, url(../images/header-menu/header-tab2.jpg) 2x);
-    padding: 26px 32px 50px 101px;
 }
 .close-btn{
 width: 40px;

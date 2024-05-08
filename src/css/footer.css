@@ -15,7 +15,7 @@
 }
 
 .socials-footer {
-  padding-top: 20px;
+ margin-top: 20px;
   display: flex;
   gap: 10px;
 }
@@ -71,8 +71,8 @@
 }
 
 .have-the-time {
-  padding-top: 40px;
-  padding-bottom: 92px;
+  margin-top: 40px;
+  margin-bottom: 92px;
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
@@ -154,7 +154,7 @@
 }
 
 .the-watch-spot {
-  padding-bottom: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 10px;
   line-height: 14px;
@@ -263,7 +263,7 @@
   }
 
   .have-the-time {
-    padding: 0;
+   margin: 0;;
   }
 
   .footer-menu-iteam {

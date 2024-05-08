@@ -29,7 +29,7 @@
 .picture-container{
 display: flex;
 justify-content: center;
-padding-bottom: 28px;
+margin-bottom: 28px;
 }
 
 .catalog-item-h {
@@ -45,7 +45,7 @@ padding-bottom: 28px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
-  padding-bottom: 8px;
+  margin-bottom: 8px;;
 }
 
 .watch-price {
@@ -93,7 +93,7 @@ padding-bottom: 28px;
   }
 
  .picture-container{
-  padding-bottom: 20px;
+  margin-bottom: 20px;
  }
 
   .watch-name {
@@ -123,6 +123,6 @@ padding-bottom: 28px;
     max-width: 368px;
   }
   .picture-container{
-    padding-bottom: 24px;
+    margin-bottom: 24px;
   }
 }

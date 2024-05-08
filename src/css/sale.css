@@ -29,9 +29,11 @@
     height: 80px;
     background: #F3F3F3
 }
-
-.sale-watch-image {
+.sale-watch-wrap{
     margin-bottom: 20px;
+}
+.sale-watch-image {
+   
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +55,7 @@
 }
 
 .sale-block-title {
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     font-weight: 600;
     font-size: 24px;
     line-height: 1.17;
@@ -223,7 +225,7 @@
     }
 
     .sale-block-title {
-        padding-bottom: 10px;
+        margin-bottom: 10px;
         text-align: left;
         font-size: 32px;
         line-height: 1.13;

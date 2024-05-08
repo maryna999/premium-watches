@@ -10,7 +10,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 32px;
 letter-spacing: -0.64px;
-padding-bottom: 24px;
+margin-bottom: 24px;
 
 } 
 
@@ -30,8 +30,8 @@ font-style: normal;
 font-weight: 500;
 line-height: 20px; /* 125% */
 letter-spacing: -0.32px;
-padding-top: 24px;
-padding-bottom: 8px;
+margin-top: 24px;
+margin-bottom: 8px;
 
 }
 .text-content { /* p */
@@ -67,7 +67,7 @@ display: flex;
 
 } 
 .reviews-title {
-    padding-bottom: 40px;
+    margin-bottom: 40px;
     font-size: 48px;
     line-height: 44px;
     letter-spacing: -0.96px;
@@ -110,10 +110,6 @@ align-items: center;
 justify-content: flex-start;
 flex-direction: column;
 } 
-.content-name {
-padding-top: 24px;
-padding-bottom: 8px;
-}
 
 .text-content { /* p*/
     width: 298px;
@@ -125,11 +121,3 @@ padding-bottom: 8px;
     display: flex;
 }
 }
-
-
-
-    
-
-    
-
-  

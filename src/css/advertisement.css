@@ -39,6 +39,7 @@
     text-align: center;
     color: #fbfbfb;
     padding: 15px 43px 15px 44px;
+    display: inline-block
 }
 
 .advertisement-contact-btn:hover{
@@ -127,12 +128,14 @@
         letter-spacing: -0.02em;
         color: #fbfbfb;
         margin-bottom: 0;
+        height: 132px;
     }
 
     .advertisement-contact-btn {
         border: 1px solid rgba(251, 251, 251, 0.15);
         border-radius: 16px;
         width: 160px;
+        height: 48px;
         font-weight: 500;
         font-size: 14px;
         line-height: 1.28571;

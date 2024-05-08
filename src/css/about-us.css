@@ -50,6 +50,7 @@ padding-bottom: 60px;
     text-align: center;
     color: #fbfbfb;
     border: none;
+    padding: 15px 37px;
 }
 .about-btn:hover{
 background-color: rgba(31, 60, 212, 1);
