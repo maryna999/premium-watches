@@ -42,7 +42,7 @@ font-style: normal;
 font-weight: 500;
 line-height: 18px; /* 128.571% */
 letter-spacing: -0.28px;
-width: 263px;
+max-width: 263px;
 
 }
 .reviews-two {
@@ -71,6 +71,10 @@ display: flex;
     font-size: 48px;
     line-height: 44px;
     letter-spacing: -0.96px;
+}
+
+.content-reviews{
+    width: 344px;
 }
 
 .content-name{
@@ -113,6 +117,9 @@ padding-bottom: 8px;
 
 .text-content { /* p*/
     width: 298px;
+}
+.content-reviews{
+    width: 370px;
 }
 .reviews-thrid {
     display: flex;

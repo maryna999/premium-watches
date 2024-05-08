@@ -21,7 +21,7 @@
 .catalog-item {
   border: 1px solid rgba(12, 12, 12, 0.05);
   border-radius: 30px;
-  width: 335px;
+  max-width: 335px;
   background: #f3f3f3;
   padding: 24px 28px;
 }
@@ -83,11 +83,13 @@ padding-bottom: 28px;
   .catalog-list {
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 32px 16px;
     margin-bottom: 0;
   }
   .catalog-item{
     padding: 24px 32px;
+    max-width: 344px;
   }
 
  .picture-container{
@@ -97,10 +99,6 @@ padding-bottom: 28px;
   .watch-name {
     font-size: 20px;
     line-height: 1;
-  }
-
-  .catalog-item {
-    width: 344px;
   }
 
   .catalog-btn {
@@ -118,10 +116,11 @@ padding-bottom: 28px;
   }
   .catalog-list {
     gap: 32px 23px;
+    justify-content: center;
   }
 
   .catalog-item {
-    width: 368px;
+    max-width: 368px;
   }
   .picture-container{
     padding-bottom: 24px;

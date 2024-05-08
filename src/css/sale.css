@@ -14,8 +14,8 @@
 .sale-watch-list {
     display: flex;
     gap: 5px;
-    width: 335px;
-        margin-bottom: 20px;
+    max-width: 335px;
+    margin-bottom: 20px;
 }
 
 .sale-watch-item {
@@ -38,15 +38,15 @@
     width: 100%;
     border: 1px solid rgba(12, 12, 12, 0.05);
     border-radius: 30px;
-    width: 335px;
+    max-width: 335px;
     height: 385px;
     background: #F3F3F3;
 }
 
 .sale-block-wrap {
     border-radius: 30px;
-    width: 335px;
-    height: 561px;
+    max-width: 335px;
+    min-height: 561px;
     background: #3350E9;
     font-family: "Gilroy", sans-serif;
     padding: 48px 28px;
@@ -60,7 +60,7 @@
     letter-spacing: -0.02em;
     color: #FBFBFB;
     text-align: left;
-    width: 279px;
+    max-width: 279px;
 }
 
 .sale-text1 {
@@ -107,7 +107,6 @@
 
 .sale-text4 {
     margin-bottom: 28px;
-    height: 161px;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.29;
@@ -118,12 +117,10 @@
 
 
 .sale-wrap-btn {
-    width: 335px;
-    height: 561px;
+    max-width: 279px;
 }
 
 .sale-wrap-btn-list {
-    margin-right: 28px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -188,7 +185,6 @@
     .sale-watch-list {
         flex-direction: column;
         width: 132px;
-        /*height: 558px;*/
         gap: 10px;
         margin-bottom: 0;
     }
@@ -205,16 +201,12 @@
     }
 
     .sale-watch-image {
-        width: 552px;
+        max-width: 552px;
         height: 558px;
-margin-bottom: 0;
+        margin-bottom: 0;
     }
 
     .sale-image1 {
-        /*max-width: 100%;
-        height: auto;
-        margin-bottom: 0;
-        margin-left: 20px;*/
         width: 328px;
         height: 398px;
     }
@@ -225,8 +217,8 @@ margin-bottom: 0;
 
     .sale-block-wrap{
         border-radius: 50px;
-        width: 704px;
-        height: 518px;
+        max-width: 704px;
+        min-height: 518px;
         padding: 60px;
     }
 
@@ -235,7 +227,7 @@ margin-bottom: 0;
         text-align: left;
         font-size: 32px;
         line-height: 1.13;
-        width: 436px;
+        max-width: 436px;
     }
 
     .sale-list-price {
@@ -260,7 +252,7 @@ margin-bottom: 0;
     }
 
     .sale-wrap-btn {
-        width: 398px;
+        max-width: 398px;
     }
 
     .sale-wrap-btn-list {
