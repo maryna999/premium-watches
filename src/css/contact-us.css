@@ -107,9 +107,12 @@ color: #0C0C0C;
     background: #1F3CD4;
 }
 
+
 .form-input:focus-within {
     border-color: #3350E9;
 }
+
+
 
 .form-textarea:focus-within {
     border-color: #3350E9;

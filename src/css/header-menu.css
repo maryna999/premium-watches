@@ -3,8 +3,8 @@
     height: 100%;
     position: fixed;
     top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    right: 0;
+    transform: translateY(-50%);
     background-image: image-set(url(../images/header-menu/header-mob1.jpg) 1x, url(../images/header-menu/header-mob2.jpg) 2x);
     background-repeat: no-repeat;
     background-size: cover;
@@ -14,6 +14,7 @@
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
+    padding: 20px 20px 40px 39px;
 }
 
 .menu-close-btn {

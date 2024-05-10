@@ -74,6 +74,20 @@
   margin: 0 auto;
   padding: 0 20px;
 }
+
+#scrollUpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background: transparent;
+  border: none;
+  color: #0c0c0c;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 700;
+}
+
 @media screen and (min-width: 768px) {
   .container {
       min-width: 768px;
